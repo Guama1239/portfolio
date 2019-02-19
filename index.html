@@ -73,8 +73,21 @@
   .carousel-indicators li.active {
  background-color: #2b3e50;
   }
+
+  .item h4::before{
+      content: "\201c";
+      color: red;
+      font-size: 28px;
+  }
+
+  .item h4::after{
+      content: "\201d";
+      color: red;
+      font-size: 28px;
+  }
+
   .item h4 {
-      font-size: 19px;
+      font-size: 23px;
       line-height: 1.375em;
       font-weight: 400;
       font-style: italic;
@@ -82,6 +95,10 @@
   }
   .item span {
       font-style: normal;
+  }
+
+  cite {
+    font-size: 20px;
   }
   .panel {
       border: 1px solid #2b3e50; 
@@ -353,13 +370,13 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"Luis has consistently shown grit, determination and lateral leadership!"<br><span>Mark Thompson, Director of Academic Excellence at Trilogy.</span></h4>
+        <h4>Luis has consistently shown grit, determination and lateral leadership!</h4><br><cite>Mark Thompson, Director of Academic Excellence at Trilogy.</cite>
       </div>
       <div class="item">
-        <h4>"Luis is a programmer who has the ability to research, find solutions and adapt them to solve real-world problems!!"<br><span>Poornima Sewak, Web Development TA at Trilogy Education</span></h4>
+        <h4>Luis is a programmer who has the ability to research, find solutions and adapt them to solve real-world problems!!</h4><br><cite>Poornima Sewak, Web Development Instructor at Trilogy Education</cite>
       </div>
       <div class="item">
-        <h4>"Besides coding skills, Luis is also a true team player and never backs down from a good challenge"<br><span>Quan Gao, Biomedical Researcher and Full Stack Developer</span></h4>
+        <h4>Besides coding skills, Luis is also a true team player and never backs down from a good challenge</h4><br><cite>Quan Gao, Biomedical Researcher and Full Stack Developer</cite>
       </div>
     </div>
 
