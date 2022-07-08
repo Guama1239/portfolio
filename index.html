@@ -127,16 +127,16 @@
       background-color: #fff !important;
       color: #2b3e50;
   }
-  .panel-heading {
-      color: #fff !important;
-      background-color: #2b3e50 !important;
-      padding: 25px;
-      border-bottom: 1px solid transparent;
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-  }
+  /*.panel-heading {*/
+  /*    color: #fff !important;*/
+  /*    background-color: #2b3e50 !important;*/
+  /*    padding: 25px;*/
+  /*    border-bottom: 1px solid transparent;*/
+  /*    border-top-left-radius: 0px;*/
+  /*    border-top-right-radius: 0px;*/
+  /*    border-bottom-left-radius: 0px;*/
+  /*    border-bottom-right-radius: 0px;*/
+  /*}*/
   .panel-footer {
       background-color: white !important;
   }
@@ -348,8 +348,40 @@
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="portfolio" class="container-fluid text-center">
   <h2>Portfolio</h2>
+  <h4>Personal Projects</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+<!--        <a href = "https://quangao.github.io/dinner-savior/"><img src="DinnerSavior.png" alt="Dinner Savior" width="400" height="300"></a>-->
+        <!--        <img src="DinnerSavior.png" alt="Dinner Savior" width="400" height="300">-->
+        <p><strong>Plotly Map App</strong></p>
+<!--        <p>Firebase-powered restaurant wait-time reporting</p>-->
+<!--        <p>Local Storage</p>-->
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href = "https://protected-refuge-82007.herokuapp.com/"><img src="happyclinic.png" alt="Happy Clinic" width="400" height="300"></a>
+        <!--        <img src="barkparkscheroku.png" alt="Bark Park" width="400" height="300">-->
+        <p><strong>Happy Clinic</strong></p>
+        <p>Connecting Health Care Professionals to Communities</p>
+        <p>Java, Spring Boot, JDBC, JPA</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+<!--        <a href = "https://alaporteslive.herokuapp.com"><img src="atthegate.png" alt="AtTheGate" width="400" height="300"></a>-->
+        <!--        <img src="atthegate.png" alt="AtTheGate" width="400" height="300">-->
+        <p><strong>Stock Market Analysis App</strong></p>
+<!--        <p>Pre order food from any vendor inside the terminal / gate from which your flight is departing from</p>-->
+<!--        <p>React.js-Firebase authentication for REACT-MongoDB</p>-->
+      </div>
+    </div>
+  </div><br>
+
+
   <h4>Team Projects</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
@@ -405,11 +437,11 @@
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color: whitesmoke"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color: whitesmoke"></span>
       <span class="sr-only">Next</span>
     </a>
   </div>
